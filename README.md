@@ -54,15 +54,14 @@ Nitelikler:
 Degerlendirme_Id, Kurs_Id, Ogrenci_Id, Puan, Yorum, Tarih
 
   Varlıklar Arasındaki İlişkiler
-İlişki	Tür	Açıklama
-Kullanıcı – Öğrenci	1–1	Her öğrenci bir kullanıcıya karşılık gelir.
-Kullanıcı – Eğitmen	1–1	Her eğitmen bir kullanıcıya karşılık gelir.
-Eğitmen – Kurs	1–n	Bir eğitmen birden fazla kurs verebilir.
-Kurs – Ders	1–n	Bir kurs birden fazla dersten oluşabilir.
-Kurs – Kayıt	1–n	Bir kursa birden fazla öğrenci kayıt olabilir.
-Öğrenci – Kayıt	1–n	Bir öğrenci birden fazla kursa kayıt olabilir.
-Kayıt – Yoklama	1–n	Her kayıt için birden fazla yoklama tutulabilir.
-Kurs – Sertifika	1–n	Kurs tamamlandığında birden fazla sertifika oluşabilir.
-Öğrenci – Sertifika	1–n	Bir öğrenci birden fazla sertifika alabilir.
-Kurs – Değerlendirme	1–n	Bir kursa birçok değerlendirme yapılabilir.
-Öğrenci – Değerlendirme	1–n	Her öğrenci birden fazla kursu değerlendirebilir.
+Kullanıcı – Öğrenci (1–1): Her öğrenci bir kullanıcıya karşılık gelir.
+Kullanıcı – Eğitmen (1–1): Her eğitmen bir kullanıcıya karşılık gelir.
+Eğitmen – Kurs (1–n): Bir eğitmen birden fazla kurs verebilir.
+Kurs – Ders (1–n): Bir kurs birden fazla dersten oluşabilir.
+Kurs – Kayıt (1–n): Bir kursa birden fazla öğrenci kayıt olabilir.
+Öğrenci – Kayıt (1–n): Bir öğrenci birden fazla kursa kayıt olabilir.
+Kayıt – Yoklama (1–n): Her kayıt için birden fazla yoklama tutulabilir.
+Kurs – Sertifika (1–n): Kurs tamamlandığında birden fazla sertifika oluşabilir.
+Öğrenci – Sertifika (1–n): Bir öğrenci birden fazla sertifika alabilir.
+Kurs – Değerlendirme (1–n): Bir kursa birçok değerlendirme yapılabilir.
+Öğrenci – Değerlendirme (1–n): Her öğrenci birden fazla kursu değerlendirebilir
