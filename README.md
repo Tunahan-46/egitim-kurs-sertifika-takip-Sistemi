@@ -92,8 +92,7 @@ erDiagram
     Kurslar |o--|{ Degerlendirmeler : "FK: Kurs_Id (1-n)"
 ```
 
-![WhatsApp Image 2025-11-03 at 10 52 55 (1)](https://github.com/user-attachments/assets/fee78009-c085-4226-ac94-ee4a4f774b85)
-
+<img width="1735" height="692" alt="egitim_kurs_sertifikasyon_takip_er drawio" src="https://github.com/user-attachments/assets/cf1fa5ac-31c7-480b-872e-daa7db40824a" />
 
 Eğitim Kurs ve Sertifika Takip Sistemi
 Fırat Üniversitesi BMU329 Veri Tabanı Sistemleri dersi   5. Grup "Eğitim Kurs ve Sertifika Takip Sistemi" projesidir.
