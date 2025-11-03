@@ -91,3 +91,6 @@ Kurs – Sertifika (1–n): Kurs tamamlandığında birden fazla sertifika oluş
 Kurs – Değerlendirme (1–n): Bir kursa birçok değerlendirme yapılabilir.
 
 Öğrenci – Değerlendirme (1–n): Her öğrenci birden fazla kursu değerlendirebilir
+
+
+![WhatsApp Image 2025-11-03 at 10 52 55 (1)](https://github.com/user-attachments/assets/fee78009-c085-4226-ac94-ee4a4f774b85)
