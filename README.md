@@ -1,7 +1,98 @@
-[![](https://mermaid.ink/img/pako:eNqdVt1u2jAUfhXL0gRIBFEKhXIxiZbQVek_7bZOSMgjLj2KY1cmmZYWrvcYu9zt9gzt3mtOQkJCnEpdbiDn-DvnfMefT_yEZ8KmuI-pHAKZS-JOOFKP5TNGOMyAEYmeYlv4APc2vumxjS6sjXPhSeBzNLALprEISNFqugQYmuCbs-PLG3OCizC4k7RgvRIh6PCDeWihakXMJeUzqNRRhc7BcykP_waCU0-VWKllw9rEo8giAXjTayLhHmLXasLjP-dxLEYLnNeeEsbnjs-mAxsKjgPBfDcfaQwc7jamd--ysY33uc43cq2ujqzaVsFmzFhT8NpTUvDNo0s4A2c6CMPnkUPKaQDu9BYY5OrMhHxrnZYvF1olyUVJhZFL19LBDBxGXKIkcDr4XNjdA6IS8TnMcju8cYMHi6KLzsAlDI0gIF5pH0fWNqtQSTpakcK2eJVoL8Ns6Evf3Si70WjU6mhojgY3J9eoQhwP7ipZvlu6HFn65hbKHlOpQoFDNKWnPm35H6lUoliUEdiALWH72oP9vzUPqRJQUeWhuURAkSsnoIifnx0or6a8FZHONE1ae7QtilqzsX0ValhZxANmg2pIspvN7Z6kktEwn1PJKLdBulTbgox_u6RwwYVP-EZVB-b1J9M8QztocDZEnZpm6t6KWIe647VFT9fAV7Y5JaWmiWEYaHx5UrEpR0eKGEcvvxn8_elE47c6Or8yj4_OkGXeLmrhYs13abk0jOUyO7X7quyR1c_mru4YOylLHTwzQxN45tDn4JmlEfgpHWx6JM8kjtetYYmcE1jSwzwmGS9rUEaQKS6RTQ6Y9vj5h3CI8fxLOKh6SnhgeMIIf2voGw0IsgUjAXv5gyBtfOE7uBQxz6QWfYc1REtwWqZlWXOT6o2ZtdhC9rLMhVP3xuyl-K0KcB3PJdi470mf1rFLpboTqVccnfIJ9u6pSyc4RNtEOmG2lcI8EP5FCDeBSeHP73H_jrCFevMfwqO6vs6lVlW2TeWh8LmH-7udZhQE95_wd_XabXS7veZur9lq7zdbu-12HQe4b3S7jT1lae919tut3V6rt6rjxyhvs9HrdprqCa3Nzt5-q46pDZ6Qp_F9MrpWrv4B5fchAA?type=png)](https://mermaid.live/edit#pako:eNqdVt1u2jAUfhXL0gRIBFEKhXIxiZbQVek_7bZOSMgjLj2KY1cmmZYWrvcYu9zt9gzt3mtOQkJCnEpdbiDn-DvnfMefT_yEZ8KmuI-pHAKZS-JOOFKP5TNGOMyAEYmeYlv4APc2vumxjS6sjXPhSeBzNLALprEISNFqugQYmuCbs-PLG3OCizC4k7RgvRIh6PCDeWihakXMJeUzqNRRhc7BcykP_waCU0-VWKllw9rEo8giAXjTayLhHmLXasLjP-dxLEYLnNeeEsbnjs-mAxsKjgPBfDcfaQwc7jamd--ysY33uc43cq2ujqzaVsFmzFhT8NpTUvDNo0s4A2c6CMPnkUPKaQDu9BYY5OrMhHxrnZYvF1olyUVJhZFL19LBDBxGXKIkcDr4XNjdA6IS8TnMcju8cYMHi6KLzsAlDI0gIF5pH0fWNqtQSTpakcK2eJVoL8Ns6Evf3Si70WjU6mhojgY3J9eoQhwP7ipZvlu6HFn65hbKHlOpQoFDNKWnPm35H6lUoliUEdiALWH72oP9vzUPqRJQUeWhuURAkSsnoIifnx0or6a8FZHONE1ae7QtilqzsX0ValhZxANmg2pIspvN7Z6kktEwn1PJKLdBulTbgox_u6RwwYVP-EZVB-b1J9M8QztocDZEnZpm6t6KWIe647VFT9fAV7Y5JaWmiWEYaHx5UrEpR0eKGEcvvxn8_elE47c6Or8yj4_OkGXeLmrhYs13abk0jOUyO7X7quyR1c_mru4YOylLHTwzQxN45tDn4JmlEfgpHWx6JM8kjtetYYmcE1jSwzwmGS9rUEaQKS6RTQ6Y9vj5h3CI8fxLOKh6SnhgeMIIf2voGw0IsgUjAXv5gyBtfOE7uBQxz6QWfYc1REtwWqZlWXOT6o2ZtdhC9rLMhVP3xuyl-K0KcB3PJdi470mf1rFLpboTqVccnfIJ9u6pSyc4RNtEOmG2lcI8EP5FCDeBSeHP73H_jrCFevMfwqO6vs6lVlW2TeWh8LmH-7udZhQE95_wd_XabXS7veZur9lq7zdbu-12HQe4b3S7jT1lae919tut3V6rt6rjxyhvs9HrdprqCa3Nzt5-q46pDZ6Qp_F9MrpWrv4B5fchAA)
+```mermaid
+erDiagram
+    Kullanicilar {
+        int Kullanici_Id PK
+        string Ad
+        string Soyad
+        string Email "UNIQUE"
+        string Sifre
+        string Rol "CHECK ('ogrenci', 'egitmen', 'yonetici')"
+        date Kayit_Tarihi
+    }
 
+    Ogrenciler {
+        int Ogrenci_Id PK
+        string Okul_Adi
+        string Bolum
+        int Sinif
+        %% Ogrenci_Id -> Kullanicilar.Kullanici_Id (FK)
+    }
 
+    Egitmenler {
+        int Egitmen_Id PK
+        string Uzmanlik_Alani
+        int Deneyim_Yili
+        %% Egitmen_Id -> Kullanicilar.Kullanici_Id (FK)
+    }
 
+    Kurslar {
+        int Kurs_Id PK
+        string Kurs_Adi
+        string Aciklama "MAX"
+        date Baslangic_Tarihi
+        date Bitis_Tarihi
+        decimal Fiyat
+        int Egitmen_Id FK
+    }
+
+    Kayitlar {
+        int Kayit_Id PK
+        date Kayit_Tarihi
+        string Durum "CHECK (...), DEFAULT 'aktif'"
+        int Ogrenci_Id FK
+        int Kurs_Id FK
+    }
+
+    Sertifikalar {
+        int Sertifika_Id PK
+        date Verilis_Tarihi
+        string Sertifika_Kodu "UNIQUE"
+        int Ogrenci_Id FK
+        int Kurs_Id FK
+    }
+
+    Dersler {
+        int Ders_Id PK
+        string Ders_Adi
+        int Sure
+        int Kurs_Id FK
+    }
+
+    Yoklamalar {
+        int Yoklama_Id PK
+        date Tarih
+        bool Katildi "DEFAULT 0"
+        int Kayit_Id FK
+    }
+
+    Degerlendirmeler {
+        int Degerlendirme_Id PK
+        int Puan "CHECK (BETWEEN 1 AND 5)"
+        string Yorum "MAX"
+        date Tarih
+        int Kurs_Id FK
+        int Ogrenci_Id FK
+    }
+
+    %% --- SQL'den Gelen İlişkiler (FOREIGN KEYs) ---
+    Kullanicilar ||--|| Ogrenciler : "FK: Ogrenci_Id (1-1)"
+    Kullanicilar ||--|| Egitmenler : "FK: Egitmen_Id (1-1)"
+    Egitmenler ||--|{ Kurslar : "FK: Egitmen_Id (1-n)"
+    Kurslar ||--|{ Dersler : "FK: Kurs_Id (1-n)"
+    Kayitlar ||--|{ Yoklamalar : "FK: Kayit_Id (1-n)"
+    
+    %% Çoka-çok (Many-to-Many) veya dolaylı ilişkiler
+    Ogrenciler |o--|{ Kayitlar : "FK: Ogrenci_Id (1-n)"
+    Kurslar |o--|{ Kayitlar : "FK: Kurs_Id (1-n)"
+    
+    Ogrenciler |o--|{ Sertifikalar : "FK: Ogrenci_Id (1-n)"
+    Kurslar |o--|{ Sertifikalar : "FK: Kurs_Id (1-n)"
+
+    Ogrenciler |o--|{ Degerlendirmeler : "FK: Ogrenci_Id (1-n)"
+    Kurslar |o--|{ Degerlendirmeler : "FK: Kurs_Id (1-n)"
+```
+
+![WhatsApp Image 2025-11-03 at 10 52 55 (1)](https://github.com/user-attachments/assets/fee78009-c085-4226-ac94-ee4a4f774b85)
 
 
 Eğitim Kurs ve Sertifika Takip Sistemi
@@ -91,6 +182,3 @@ Kurs – Sertifika (1–n): Kurs tamamlandığında birden fazla sertifika oluş
 Kurs – Değerlendirme (1–n): Bir kursa birçok değerlendirme yapılabilir.
 
 Öğrenci – Değerlendirme (1–n): Her öğrenci birden fazla kursu değerlendirebilir
-
-
-![WhatsApp Image 2025-11-03 at 10 52 55 (1)](https://github.com/user-attachments/assets/fee78009-c085-4226-ac94-ee4a4f774b85)
