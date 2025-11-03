@@ -1,3 +1,13 @@
+Eğitim Kurs ve Sertifika Takip Sistemi
+Fırat Üniversitesi BMU329 Veri Tabanı Sistemleri dersi   5. Grup "Eğitim Kurs ve Sertifika Takip Sistemi" projesidir.
+
+Berçem Papatya-235260071
+
+Tunahan Özdil-235260089
+
+Taha Can Şenel-235260045
+
+
 Varlıklar ve Nitelikler
 1. Kullanıcılar (Kullanicilar)
 
